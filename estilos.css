@@ -1,5 +1,12 @@
 /*Página CSS com a estilização das páginas*/
 
+@media screen and (max-width: 600px) {
+    /* Estilos para dispositivos com largura de tela de até 600px */
+    body {
+        font-size: 14px;
+    }
+}
+
 body{
     background-image: url(fundo.jpg);
 } /*No body apenas inclui um background imagem*/
