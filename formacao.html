@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação acadêmica</title>
+    <link rel="stylesheet" href="estilos.css"> <!--Adicionei o link de um arquivo CSS com todos as estilizações das páginas-->
+</head>
+
+<body>
+
+    <!--Menu horizontal, cada tag li tem o item da lista e a tag 'a' com link de ligação com a outra página correspondente-->
+    <ul> <!--lista não organizada-->
+        <li><a href="index.html">Quem sou eu?</a></li>
+        <li><a href="formacao.html">Formação acadêmica</a></li>
+        <li><a href="portifolio.html">Portifólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul> <br><br><br>
+
+    <!--Segunda página-->
+
+    <section class="formacao"> <!--Fiz um section para poder incluir uma imagem ao lado do texto. Na imagem inclui as dimensões e estilização de rotação, também inclui uma class com a formatação dessa section-->
+        <img src="hat.png" alt="" width="70px" height="70px" style="transform: rotate(-25deg);">
+        <h2>Formação acadêmica</h2>
+        <br><br>
+    </section>
+    
+    <section class="ufpr"> <!--Criei outra section para incluir texto de um lado e depois criei um aside para incluir uma imagem, assim como na primeira página. Para cada um criei uma class específica para formatar o posicionamento-->
+        <br>
+        <h3>Universidade Federal do Paraná (UFPR)</h3>
+        <p class="text1">Biólogo formado pela UFPR - Bacharel e Licenciatura (2012 - 2018). <br> Mestre em Zoologia formado pela UFPR (2018 - 2020).</p> <!--Fiz uma class só para os textos do corpo do texto 'text1'-->
+    </section>
+    <aside class="imgufpr">
+        <br><br><br>
+        <img src="ufpr.png" alt="Logo UFPR">
+    </aside>
+    
+    <section class="uninter"> <!--Criei mais um section para incluir texto de um lado e depois criei outro aside para incluir mais uma imagem, assim como na primeira página. Para cada um criei uma class específica para formatar o posicionamento-->
+        <br><br>
+        <h3>Centro Universitário Internacional (Uninter)</h3>
+        <p class="text1">Tecnólogo em Análise e Desenvolvimento de Sistemas (2023 - 2025).</p>
+    </section>
+
+    <aside class="imguninter">
+        <br><br><br><br>
+        <img src="uninter.png" alt="Logo Uninter" width="290" height="145">
+    </aside>
+    
+
+    <section style="clear: both;" class="idioma"> <!--Esse section criei para incluir a parte de idiomas e colocar uma imagem ao lado do texto, assim como na section da formação acadêmica. Inclui um style clean para limpar a formatação das sections anteriores e criei uma class para formatação desse section-->
+        <br>
+        <img src="balloon.png" alt="" width="70" height="65">
+        <h2>Idiomas</h2>
+    </section>
+
+    <section class="centralizar"> <!--Section para incluir os idiomas, e cada idioma foi separado por uma div para aplicar estilização com as class-->
+        <br>
+        <div class="linguagens">
+            <p>Português: fluente</p>
+        </div>
+
+       <div class="linguagens">
+            <p>Inglês: básico</p>
+       </div>
+    </section>
+
+</body>
+</html>

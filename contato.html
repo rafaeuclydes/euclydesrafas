@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="estilos.css"> <!--Adicionei o link de um arquivo CSS com todos as estilizações das páginas-->
+</head>
+<body>
+
+    <!--Quarta página-->
+    
+    <!--Menu horizontal, cada tag li tem o item da lista e a tag 'a' com link de ligação com a outra página correspondente-->
+
+    <ul> <!--lista não organizada-->
+        <li><a href="index.html">Quem sou eu?</a></li>
+        <li><a href="formacao.html">Formação acadêmica</a></li>
+        <li><a href="portifolio.html">Portifólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul> <br><br><br>
+
+    <h2>Contato</h2><br> <!--Formulário criado com as tags form e dentro uma tabela com 3 linhas para preenchimento e um coluna. Cada Item a ser preenchido tem seu id único-->
+    <form action="" method="" class="formulario">
+        <table>
+            <tr>
+                <th><label for="nome">Nome: </label></th> <!--label descrevendo o campo de entrada-->
+                <td><input type="text" name="nome" id="nome"></td> <!--Inputs para inclusão das informações-->
+            </tr>
+            <tr>
+                <th><label for="email">E-mail: </label></th>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <th><label for="msg">Digite a sua mensagem: </label></th>
+                <td><textarea name="msg" cols="40" rows="7">Digite a sua mensagem</textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><br><button class="botao">Enviar</button></td> <!--Inclui uma class no botão enviar para estilizar-->
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>

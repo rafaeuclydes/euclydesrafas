@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!--Menu horizontal, cada tag li tem o item da lista e a tag 'a' com link de ligação com a outra página correspondente-->
+
+    <ul> <!--lista não organizada-->
+        <li><a href="index.html">Quem sou eu?</a></li>
+        <li><a href="formacao.html">Formação acadêmica</a></li>
+        <li><a href="portifolio.html">Portifólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul> <br><br><br>
+
+    <!--Terceira página-->
+
+    <h2>Portifólio</h2><br>
+
+    <!--Criei 1 div maior, uma para incluir cada item (GitHub, Linkedin e Lattes)-->
+
+    <div class="portifolios"> 
+        <div class="portgit"> <!--Div criada com uma class para separar a página em 3 partes verticais-->
+            <h3 class="text2">GitHub</h3>
+
+            <div> <!--Iclusão da imagem com link para a página do GitHub-->
+                <a href="http://www.github.com/rafaeuclydes"><img src="gith.png" alt="" style="padding: 20px;"></a>
+                <div> <!--Div para incluir texto abaixo da imagem, criei uma class específica para esse texto-->
+                    <p class="textport">Scripts para análise de dados no R <br>
+                    Scripts básicos em Python
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="portlink"> <!--Div criada com uma class para separar a página em 3 partes verticais-->
+        <h3 class="text2">Linkedin</h3> 
+        <div> <!--Iclusão da imagem com link para a página do Linkedin-->
+            <a href="http://www.linkedin.com/in/rafael-euclydes-🏳️‍⚧️-299212254"><img src="linkedin.png" alt="" width="200" height="200" style="padding: 20px;"></a>
+                <div> <!--Div para incluir texto abaixo da imagem, criei uma class específica para esse texto-->
+                    <p class="textport">Novidades no Linkedin</p>
+                </div>
+        </div>
+    </div>
+
+    <div class="portlattes"> <!--Div criada com uma class para separar a página em 3 partes verticais-->
+        <h3 class="text2">Lattes</h3>
+        <div> <!--Iclusão da imagem com link para a página do Lattes-->
+            <a href="http://www.lattes.cnpq.br/1339757779601766"><img src="lattes.png" alt="" width="200" height="200" style="padding: 20px;"></a> 
+            <div> <!--Div para incluir texto abaixo da imagem, criei uma class específica para esse texto-->
+                <p class="textport">Publicações científicas</p>
+            </div>
+        </div>
+    </div>
+    </div>  
+    
+</body>
+</html>

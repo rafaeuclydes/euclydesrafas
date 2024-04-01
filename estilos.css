@@ -1,0 +1,184 @@
+/*Página CSS com a estilização das páginas*/
+
+body{
+    background-image: url(fundo.jpg);
+} /*No body apenas inclui um background imagem*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+} /*ul - sem marcadores, sem margem e padding, layout flexível e item com espaço igual e distribuidos pela tela */
+
+li{
+    float: left;
+    background-color: #BA55D3;
+    border-radius: 20px;
+} /*li - flutua a esquerda, com cor de fundo e borda arredonda*/
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+} /*li a - elementos em bloco e linha, cor do texto, alinhamento centralizado, padding com espaçamanto entre os elementos, não fica sublinhado, e formatações de fonte e tamanho do texto*/
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+} /*h1 - texto alinhado, fonte e tamanho de texto específicos*/
+
+h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 0 15px;
+    text-align: center;
+} /*h2 - texto alinhado, fonte e tamanho de texto específicos e espaçamento entre os elementos*/
+
+.text1{
+    text-align: justify;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    float: left;
+    line-height: 1.5;
+} /*text1 - texto justificado, fonte e tamanho de texto específicos, espaçamento entre os elementos, flutua a esquerda da página e tem espaçamanto entre as linhas*/
+
+.imgqse{
+    float: right;
+    margin-right: 200px;
+    width: 15%;
+} /*imgqse - flutua a direita da página, com margem de afastamento da direita e ocupa 15% da página*/
+
+.qse{
+    float: left;
+    margin-left: 20px;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+} /*qse - texto flutua a esquerda da página é centralizado, com margem de afastamento da esquerda, ocupa 60% da página, padding de espaçamento entre os elementos*/
+
+#img1{
+    border-radius: 180px;
+} /*id img - apenas deixa a imagem com margens arredondadas*/
+
+footer{
+    margin-top: 200px;
+    margin-left: 560px;
+} /*footer - margens do topo e da esquerda*/
+
+.formacao{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+} /* formacao - layout flexível, centralizado horizontalmente e itens alihados*/
+
+.ufpr{
+    float: left;
+    margin-left: 20px;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+} /*ufpr - flutua a esquerda, margem da esquerda, ocupa 60% da página, espqçamento entre os elementos com padding e texto centralizado*/
+
+.imgufpr{
+    float: right;
+    margin-right: 200px;
+    width: 15%;
+} /*imgufpr - flutua a direita da página, com margem de afastamento da direita e ocupa 15% da página*/
+
+h3{
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 0 10px;
+    font-style: italic;
+    text-align: center;
+} /*h3 - tamanho e fonte do texto, espqçamento entre os elementos, estilo do texto e alinhamento*/
+
+.uninter{
+    float: right;
+    margin-left: 20px;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+} /*uninter - flutua a direita, margem da direita, ocupa 60% da página, espaçamento entre os elementos com padding e texto centralizado*/
+
+.imguninter{
+    float: left;
+    margin-left: 100px;
+    width: 15%;
+} /*imguninter - flutua a esquerda da página, com margem de afastamento da direita e ocupa 15% da página*/
+
+.idioma{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+} /*idioma - layout flex, centralizado horizontalmente e itens alinhados*/
+
+.linguagens{
+    background-color: #BA55D3;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 70px;
+} /*linguagens - fundo com cor, borda arredondada, formatações do texto, display em bloco e ao lado do outro, centralizados, e com dimensões específicas*/
+
+.centralizar{
+    text-align: center;
+} /*centralizar - centralizar os itens*/
+
+.formulario{
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    font-family: sans-serif;
+} /*formulario - layout flex, centralizados, tamanho e fonto o texto*/
+
+.botao{
+    background-color: #BA55D3;
+    font-family: sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+    border-color: purple;
+} /*botao - cor de fundo, formatação do texto, borda arredondada, dimensões específicas e cor de borda*/
+
+.portifolios{
+    display: flex;
+    justify-content: space-around; 
+} /*portifolios - layout flex, itens com espaço iguais entre eles e a página*/
+
+.text2{
+    text-align: center; 
+} /*text2 - alinhamento do texto*/
+
+.textport{
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+} /*textport - formatação de tamanho, fonte, espaçamento e alinhamento do texto*/
+
+
+.portgit, .portlink, .portlattes {
+    width: 30%;
+    text-align: center;
+} /*junção de 3 classes com a mesma formatação*/
+
+
+
+
+

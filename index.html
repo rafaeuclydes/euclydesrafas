@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Euclydes dos Santos</title>
+    <link rel="stylesheet" href="estilos.css"> <!--Adicionei o link de um arquivo CSS com todos as estilizações das páginas-->
+</head>
+
+</head>
+<body>
+
+    <!--Menu horizontal, cada tag li tem o item da lista e a tag 'a' com link de ligação com a outra página correspondente-->
+
+    <ul> <!--lista não organizada-->
+        <li><a href="index.html">Quem sou eu?</a></li>
+        <li><a href="formacao.html">Formação acadêmica</a></li>
+        <li><a href="portifolio.html">Portifólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul> <br>
+
+    <!--Primeira página-->
+
+    <header><h1>Bem vindos!</h1> <!--Cabeçalho para desracar o bem vindos-->
+
+    </header>
+        <section class="qse"> <!--Esse section é para marcar que meu texto precisa estar do lado esquerdo da tela-->
+        <h2>Quem sou eu?</h2> <!--Título um pouco menor que o h1-->
+        <p class="text1"> Olá! Me chamo <span style="color: #4B0082; font-size: 30px; font-weight: bold;">Rafael</span>, sou biólogo e estou embarcando em uma jornada de transição para a área da tecnologia. Ao longo da minha carreira acadêmica, desenvolvi habilidade de investigação científica. <br>
+        Recentemente, decidi explorar novos horizontes e estou fascinado e animado pela área da tecnologia e suas possibilidades. <br> 
+        Também sou um entusiasta do Crossfit. Fora do ambiente de trabalho, você me encontrará desfrutando da companhia da minha gata ou socializando com amigos enquanto aprecio um bom café.</p>
+        <!--Inclui um spam com um style para mudar só a formatação do meu nome no texto que tem uma class específica para formatação-->
+    </section>
+    <br><br> <!--Inseri alguns br para quebra de linha em várias partes do script para melhorar a visualização e não deixar os textos muito grudados -->
+
+    <aside class="imgqse"> <!--Adicionei esse aside para formatar minha página de forma que tenha uma parte lateral que eu pudesse colocar uma imagem e formatei essa imagem com a class imgqse-->
+        <br><br>
+        <img src="perfil.jpeg" alt="Imagem do perfil" width="340" height="350" id="img1">
+    </aside><br><br><br><br><br><br><br><br>
+    
+    <footer style="clear: both;"> <!--Criei um footer para colocar np rodapé links com os principais meios para obter informações profissionais minhas. O style inclui para limpar a formatação da section e do aside feitos acima-->
+        <div><!--Inclui essa div sem valor semântico apenas para separar e incluir a tabela que tem as imagens-link-->
+            <table>
+                <tr> <!--1 linha e 3 colunas de tabela, em cada td inclui as formatações de tamanho das imagens e os links nas divs 'a', tambem inclui um style com padding de separação entre as imagens-->
+                    <td style="padding: 0 20px;"><a href="http://www.linkedin.com/in/rafael-euclydes-🏳️‍⚧️-299212254"><img src="linkedin.png" alt="Linkedin" width="45" height="45"></a></td>
+                    <td style="padding: 0 20px;"><a href="http://www.github.com/rafaeuclydes"><img src="gith.png" alt="GitHub" width="48" height="48"></a></td>
+                    <td style="padding: 0 20px;"><a href="http://www.lattes.cnpq.br/1339757779601766"><img src="lattes.png" alt="Lattes" width="47" height="47"></a></td>
+                </tr>
+            </table>
+        </div>          
+    </footer>
+        
+</body>
+</html>
